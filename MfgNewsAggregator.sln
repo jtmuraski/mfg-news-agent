@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.3.11312.210 d18.3
+VisualStudioVersion = 18.3.11312.210
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssFeedParseTest", "RssFeedParseTest\RssFeedParseTest.csproj", "{F65F5799-5698-442A-B123-91C6B5572BA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssFeedParse.Console", "RssFeedParseTest\RssFeedParse.Console.csproj", "{F65F5799-5698-442A-B123-91C6B5572BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsAggregatorModels", "Models\NewsAggregatorModels.csproj", "{F3CE4470-2006-41E5-A2B0-8107B9E6A1CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsAggregator.Core", "Models\NewsAggregator.Core.csproj", "{F3CE4470-2006-41E5-A2B0-8107B9E6A1CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,5 +44,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE04244A-A47B-41EE-90D7-C8D8BD161FD5}
 	EndGlobalSection
 EndGlobal

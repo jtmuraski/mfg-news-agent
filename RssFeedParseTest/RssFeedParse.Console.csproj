@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Models\NewsAggregatorModels.csproj" />
+    <ProjectReference Include="..\Models\NewsAggregator.Core.csproj" />
   </ItemGroup>
 
 </Project>
